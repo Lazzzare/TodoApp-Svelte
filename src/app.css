@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.completed {
+  fill: #20eeb0; /* Change the fill color to indicate completion */
+  stroke: #20eeb0;
+}
