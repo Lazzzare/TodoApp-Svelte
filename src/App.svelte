@@ -9,7 +9,7 @@
 
 <main class="w-full h-screen bg-[#EEE] flex flex-row justify-center items-center">
 <TitleContent title={'Todo'}/>
-<div>
+<div class="max-w-[430px]">
     <TodoHeader />
     <TodoForm />
     <TodoList />
