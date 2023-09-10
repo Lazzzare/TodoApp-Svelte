@@ -44,10 +44,7 @@ npm run dev
 # Built With
 
 - _Vite_
-- _React_
-- _FramerMotion_
-- _Typescript (TSX)_
-- _React Hooks (useState)_
-- _sessionStorage_
-- _uuid_
+- _Svelte_
+- _Typescript_
 - _TailwindCss_
+- _uuid_
