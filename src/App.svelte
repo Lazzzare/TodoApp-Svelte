@@ -12,6 +12,5 @@
     <TitleContent title="Todo" />
     <TodoHeader />
     <TodoForm />
-    <TodoList />
   </div>
 </main>
