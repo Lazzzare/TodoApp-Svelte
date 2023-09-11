@@ -45,9 +45,9 @@
         bind:value={inputText}
         type="text"
         placeholder="Note"
-        class="w-[275px] bg-[#EBEFF2] py-3 pl-10 focus:outline-none"
+        class="w-[275px] bg-[#EBEFF2] py-3 pl-3 focus:outline-none"
       />
-      <div class="absolute top-3 left-2">
+      <!-- <div class="absolute top-3 left-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -66,7 +66,7 @@
             fill="white"
           />
         </svg>
-      </div>
+      </div> -->
     </div>
     <button
       type="submit"
