@@ -5,9 +5,12 @@
   import TodoList from "./lib/TodoContent/TodoList.svelte";
 </script>
 
-<main class="w-full h-screen bg-[#EEE] flex flex-row justify-center pt-40">
-  <div class="max-w-[430px]">
-    <TitleContent title="Todo" />
+<main
+  class="w-full h-screen bg-[#EEE] flex flex-row justify-center items-center gap-x-72"
+>
+  <TitleContent title="Todo" />
+  <div class="max-w-[430px] max-h-[700px] overflow-y-auto">
+    <div />
     <TodoHeader />
     <TodoForm />
   </div>
