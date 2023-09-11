@@ -19,7 +19,11 @@
     {#each todos as todo (todo.id)}
       <div class="flex flex-row w-full items-center justify-between">
         <div>
-          <li class="text-[#0D0D0D] text-lg font-medium">{todo.title}</li>
+          <li class="text-[#0D0D0D] text-lg font-medium">
+            <p class="whitespace-normal break-words max-w-[300px]">
+              {todo.title}
+            </p>
+          </li>
           <span class="text-[#888] text-sm">{todo.date}</span>
         </div>
         <div class="flex flex-row gap-x-3">
